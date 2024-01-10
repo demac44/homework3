@@ -45,7 +45,7 @@ namespace Homework3
             textBox1.Text = "";
             difference = -1;
             this.BackColor = SystemColors.GrayText;
-            label2.Text = number.ToString();
+            //label2.Text = number.ToString();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -111,7 +111,6 @@ namespace Homework3
                 if (number > nn)
                     difference = number - nn;
                 else difference = nn - number;
-                label2.Text = difference.ToString();
             }
             catch { }
         }

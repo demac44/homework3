@@ -33,7 +33,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.resultText = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -83,22 +82,12 @@
             this.resultText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.resultText.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(539, 179);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
-            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.ClientSize = new System.Drawing.Size(1100, 619);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.resultText);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -122,7 +111,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label resultText;
-        private System.Windows.Forms.Label label2;
     }
 }
 
